@@ -1,23 +1,3 @@
-# File: terraform_config.tf
-# Author: Tim Siwula <tcsiwula@usfca.edu>
-# Date: Wed Jul 13th 2016
-# This is a terraform script that will bootstrap an autoscaling group on AWS preinstalled with nginx. Access rights restricted to ELB only.
-# Update: terraform get
-# Complie: terraform plan
-# Run: terraform apply
-# Stop: terraform destroy
-#
-#   docs:
-#   https://aws.amazon.com/blogs/apn/terraform-beyond-the-basics-with-aws/
-#   https://github.com/terraform-community-modules/tf_aws_asg_elb
-#   https://www.terraform.io/docs/providers/aws/r/autoscaling_group.html
-#   https://www.terraform.io/docs/providers/aws/r/autoscaling_group.html
-#   https://github.com/hashicorp/terraform/tree/master/examples
-
-
-# ------------------------------------------------------------------
-# 1.     Define aws as provider
-# ------------------------------------------------------------------
 provider "aws" {
 }
 
